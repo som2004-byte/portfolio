@@ -24,8 +24,7 @@ const projects = [
     icon: "✨",
     color: "from-yellow-400 to-amber-600",
     links: {
-      code: "https://github.com/som2004-byte",
-      demo: "https://vercel.com/som2004-bytes-projects"
+      demo: "https://sitaare.in"
     }
   },
   {
