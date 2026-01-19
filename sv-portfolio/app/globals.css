@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .font-rajdhani {
+    font-family: var(--font-rajdhani), sans-serif;
+  }
+
+  .font-michroma {
+    font-family: var(--font-michroma), sans-serif;
+  }
+
+  .glass-effect {
+    @apply bg-[#0f172a]/60 backdrop-blur-xl border border-violet-500/20;
+  }
+
+  .shimmer-text {
+    background: linear-gradient(90deg, #fff 0%, #a78bfa 25%, #fff 50%, #60a5fa 75%, #fff 100%);
+    background-size: 1000px 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 5s linear infinite;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #020617;
+  /* Deepest Indigo */
+}
+
+/* Custom Scrollbar for Chrome/Safari/Webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4c1d95;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6d28d9;
+}
