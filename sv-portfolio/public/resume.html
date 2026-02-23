@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somya Verma - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
+            --border: #e5e7eb;
+        }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.5;
+            color: var(--text-main);
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #f3f4f6;
+        }
+        .container {
+            background: white;
+            padding: 50px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            min-height: 1100px; /* A4-ish proportions */
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .contact {
+            margin-top: 10px;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+        .contact a {
+            color: var(--primary);
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 25px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-main);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .summary p {
+            font-size: 0.95rem;
+            margin: 0;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 4px;
+        }
+        .title {
+            font-weight: 700;
+            font-size: 1.05rem;
+        }
+        .meta {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+        .location-date {
+            text-align: right;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        ul {
+            margin: 5px 0 0 20px;
+            padding: 0;
+            font-size: 0.9rem;
+        }
+        li {
+            margin-bottom: 3px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-cols: auto 1fr;
+            gap: 10px 20px;
+            font-size: 0.9rem;
+        }
+        .skill-cat {
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .link {
+            font-size: 0.8rem;
+            color: var(--primary);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        @media print {
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; padding: 0; }
+            @page { margin: 1cm; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SOMYA VERMA</h1>
+            <div class="contact">
+                Bangalore | +91 9967698252 | <a href="mailto:vermasomya045@gmail.com">vermasomya045@gmail.com</a><br>
+                <a href="https://somyaverma.com">Portfolio</a> | 
+                <a href="https://www.linkedin.com/in/somya-verma21">LinkedIn</a> | 
+                <a href="https://drive.google.com/drive/folders/1VkqmfJYGBvBGJ45pIOKpO9fq1LDTqEpl">Certificates</a> | 
+                <a href="https://github.com/som2004-byte">GitHub</a>
+            </div>
+        </header>
+
+        <section class="summary">
+            <h2>Profile Summary</h2>
+            <p>Computer Science undergraduate with strong hands-on experience in AI/ML and full-stack web development. Skilled in building practical machine learning models using Python, TensorFlow, and Scikit-learn, as well as designing responsive full-stack applications using React.js and Node.js. Demonstrated leadership as Brakes Department Head in a nationally ranked go-kart team. Passionate about innovation, automation, and real-world tech solutions.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-header">
+                    <div class="title">MIT-WPU</div>
+                    <div class="location-date">Pune<br>2022-2026 (Expected)</div>
+                </div>
+                <div class="meta">B.Tech in Computer Science and Business Systems (Sem 7) | CGPA – 7.7</div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <div class="title">Mumbai Junior College</div>
+                    <div class="location-date">Mumbai<br>2022</div>
+                </div>
+                <div class="meta">12th | Percentage - 60%</div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <div class="title">Auxilium Convent High School</div>
+                    <div class="location-date">Mumbai<br>2020</div>
+                </div>
+                <div class="meta">10th | Percentage - 84.6%</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <div class="item">
+                <div class="item-header">
+                    <div class="title">Software Developer Intern – iNEW</div>
+                    <div class="location-date">Pune<br>April 2025 – Present</div>
+                </div>
+                <ul>
+                    <li>Contributing to custom client projects at a project-based software company. Developing cross-platform mobile apps using React Native with modular, scalable architecture.</li>
+                    <li>Handling backend operations and data management using DBeaver, Supabase, and REST APIs. Integrated responsive UIs, API workflows, and real-time features across Android/iOS using WSL tools.</li>
+                    <li>Collaborated with designers and engineers to deliver optimized, client-ready solutions.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <div class="title">Indian Karting Race (IKR) – National Go-Kart Competition</div>
+                    <div class="location-date">Greater Noida<br>Oct 2024</div>
+                </div>
+                <div class="meta">Team Member → Brakes Lead</div>
+                <ul>
+                    <li>Represented MIT-WPU in the prestigious national-level IKR 2024 competition. Achieved All India Rank 5th among 100+ teams for design and performance.</li>
+                    <li>Led the Brakes Department as Head in 3rd year and contributed as a designer in 2nd year. Earned national-level certification for kart engineering excellence.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="item">
+                <div class="item-header">
+                    <div class="title">Left2Right – Leftover Food Donation Web App <a href="https://github.com/som2004-byte" class="link">LINK</a></div>
+                </div>
+                <div class="meta">React.js, Node.js, Express.js, MongoDB, HTML, CSS, JS</div>
+                <ul>
+                    <li>Built a platform for individuals to donate and request leftover food.</li>
+                    <li>Implemented full-stack features: user auth, food listings, and REST APIs. Deployed via AWS Amplify and AWS Lambda.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <div class="title">Sitaare (A platform for orphan girls) <a href="https://sitaare.in" class="link">LINK</a></div>
+                </div>
+                <div class="meta">HTML, CSS, JavaScript, Flexbox, Media Queries, GitHub, Dialogflow</div>
+                <ul>
+                    <li>A modern, responsive website showcasing creative and technical projects.</li>
+                    <li>Built using HTML, CSS, JavaScript (React), and hosted on Vercel. Features interactive elements and smooth animations.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <div class="title">Smart Off-Road ADAS for All-Terrain Vehicles <a href="https://drive.google.com/drive/folders/1Ti_FUvjbjydwT5IClMlKZHboaupWPVJj" class="link">LINK</a></div>
+                </div>
+                <div class="meta">AI-Powered Smart Off-Road ADAS System</div>
+                <ul>
+                    <li>Achieved 95% detection accuracy and < 45ms decision latency in simulated battlefield scenarios.</li>
+                    <li>Developed AI-based off-road ADAS integrating YOLOv8, PPO reinforcement learning, and sensor fusion.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-cat">Languages:</div>
+                <div>C++, Python, JavaScript, HTML, CSS, React.js, Node.js, Next.js, Tailwind CSS, Three.js</div>
+                
+                <div class="skill-cat">DevOps & Tools:</div>
+                <div>GitHub, Supabase, Docker, Power BI, MS Excel</div>
+                
+                <div class="skill-cat">Design & Sim:</div>
+                <div>AutoCAD, SolidWorks, Ansys, Canva, Adobe Premiere Pro</div>
+                
+                <div class="skill-cat">Databases:</div>
+                <div>MySQL, PostgreSQL (basic), NoSQL, MongoDB</div>
+                
+                <div class="skill-cat">Soft Skills:</div>
+                <div>Communication, Problem Solving, Dedication, Leadership</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

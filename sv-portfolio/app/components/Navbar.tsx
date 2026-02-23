@@ -54,7 +54,7 @@ export default function Navbar() {
                             <a href="https://leetcode.com/u/som_2004/" target="_blank" className="text-gray-400 hover:text-white transition-colors"><Code2 size={20} /></a>
                         </div>
                         <a
-                            href="/resume.html"
+                            href="/resume.pdf"
                             target="_blank"
                             className="px-4 py-2 border border-white/20 rounded-full text-sm font-medium hover:bg-white/10 transition-all text-white"
                         >
@@ -95,7 +95,7 @@ export default function Navbar() {
                                 </a>
                             ))}
                             <a
-                                href="/resume.html"
+                                href="/resume.pdf"
                                 target="_blank"
                                 className="text-primary font-medium"
                             >

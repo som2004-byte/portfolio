@@ -176,7 +176,7 @@ export default function Home() {
               <a href="#projects" className="px-8 py-4 rounded-full font-rajdhani font-semibold text-lg bg-gradient-to-br from-violet-600 to-indigo-600 text-white shadow-[0_10px_40px_rgba(139,92,246,0.4)] hover:scale-105 transition-transform">
                 View Projects
               </a>
-              <a href="/resume.html" className="px-8 py-4 rounded-full font-rajdhani font-semibold text-lg border-2 border-violet-500 text-violet-300 hover:bg-violet-500/10 hover:scale-105 transition-transform">
+              <a href="/resume.pdf" target="_blank" className="px-8 py-4 rounded-full font-rajdhani font-semibold text-lg border-2 border-violet-500 text-violet-300 hover:bg-violet-500/10 hover:scale-105 transition-transform">
                 View Resume
               </a>
             </div>
@@ -467,16 +467,16 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="text-slate-400 text-sm font-rajdhani uppercase tracking-widest mb-1">Location</div>
-                  <div className="text-xl font-bold text-white">Pune, Maharashtra, India</div>
+                  <div className="text-xl font-bold text-white">Bangalore, Karnataka, India</div>
                 </div>
               </div>
             </div>
 
             <div className="flex gap-6 justify-center">
-              <a href="mailto:somyaverma21@gmail.com" className="flex items-center gap-2 px-8 py-3 rounded-full bg-slate-100 text-slate-900 font-bold hover:scale-105 transition-transform">
+              <a href="mailto:vermasomya045@gmail.com" className="flex items-center gap-2 px-8 py-3 rounded-full bg-slate-100 text-slate-900 font-bold hover:scale-105 transition-transform">
                 <Mail size={20} /> Email Me
               </a>
-              <a href="https://www.linkedin.com/in/somyaverma21" target="_blank" className="flex items-center gap-2 px-8 py-3 rounded-full border border-slate-600 text-slate-300 font-bold hover:bg-white/5 transition-colors">
+              <a href="https://www.linkedin.com/in/somya-verma21" target="_blank" className="flex items-center gap-2 px-8 py-3 rounded-full border border-slate-600 text-slate-300 font-bold hover:bg-white/5 transition-colors">
                 <Linkedin size={20} /> LinkedIn
               </a>
               <a href="https://vercel.com/som2004-bytes-projects" target="_blank" className="flex items-center gap-2 px-8 py-3 rounded-full border border-slate-600 text-slate-300 font-bold hover:bg-white/5 transition-colors">
